@@ -30,7 +30,7 @@ avatar: "/img/avatar.jpg"
 
 # List of links in the navigation bar
 nav-links: [
-    ["Home", "#"], 
+    ["Home", ""], 
     ["Mods", "hasSubtypes", [
       ["Mod Packs & Videos", "minecraft-mods/mod-packs"], 
       ["LomLib", "minecraft-mods/lomlib"],
