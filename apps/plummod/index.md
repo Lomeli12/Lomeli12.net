@@ -29,3 +29,9 @@ comments: false
 <h2>Images</h2>
 
 <hr />
+<div id="slider">
+    <img src="{{ site.baseurl }}/assets/gallery/plummod/plummod0.png">
+    <img src="{{ site.baseurl }}/assets/gallery/plummod/plummod1.png">
+    <img src="{{ site.baseurl }}/assets/gallery/plummod/plummod2.png">
+	<img src="{{ site.baseurl }}/assets/gallery/plummod/plummod3.png">
+</div>

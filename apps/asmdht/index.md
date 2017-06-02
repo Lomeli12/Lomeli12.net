@@ -14,5 +14,9 @@ comments: false
 <p><a class="btn btn-danger btn-large" href="https://github.com/Lomeli12/ASMDHT/releases/latest" target="_blank"><span class="fa fa-download"></span> <strong>Latest Release</strong></a> <a class="btn btn-success btn-large" href="https://github.com/Lomeli12/ASMDHT" target="_blank"><span class="fa fa-github"></span> <strong>Source Code</strong></a></p>
 
 <h2>Images</h2>
-
 <hr />
+<div id="slider">
+    <img src="{{ site.baseurl }}/assets/gallery/asmdht/asmdht0.png">
+    <img src="{{ site.baseurl }}/assets/gallery/asmdht/asmdht1.png">
+    <img src="{{ site.baseurl }}/assets/gallery/asmdht/asmdht2.png">
+</div>

@@ -18,7 +18,9 @@ comments: false
 <h2>Images</h2>
 
 <hr />
-<p><!--(% gallery name=pasto-android %)--></p>
+<div id="slider">
+    <img src="{{ site.baseurl }}/assets/gallery/pasto/pasto.png">
+</div>
 
 <h2>Notes:</h2>
 
