@@ -1,9 +1,9 @@
 <footer class="footer">
   <div class="container footerBox">
     <p class="copyright text-muted">
-      Copyright&nbsp;&copy;&nbsp; {{ site.time | date: '%Y' }} 
+      Copyright&nbsp;&copy;&nbsp; {{ site.time | date: '%Y' }}
       {% if site.pretty-url %} &nbsp;&bull;&nbsp;
-        <a href="{{ site.url }}">{{ site.pretty-url }}</a> 
+        <a href="{{ site.baseurl }}/">{{ site.pretty-url }}</a>
       {% endif %}
     </p>
 
@@ -11,7 +11,7 @@
     <p class="text-muted">
       Theme by
       <a href="https://github.com/bchetty/jekyllBasicBlog">bchetty</a>
-       with additional modifications by <a href="{{ site.baseurl }}">Lomeli</a>
+       with additional modifications by <a href="{{ site.baseurl }}/">Lomeli</a>
        <br/>
        Found a bug or typo on my site? <a href="https://github.com/Lomeli12/Lomeli12.net">Help me on Github!</a>
     </p>
