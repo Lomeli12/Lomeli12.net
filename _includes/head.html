@@ -3,6 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    {% include google_analytics.html %}
     <meta name="description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.desc }}{% endif %}">
     <meta name="author" content="{{ site.profile.name }}" />
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">

@@ -79,7 +79,7 @@ pretty-url: "lomeli12.net"
 # --- Misc --- #
 
 # Google Analytics Settings
-google_analytics: ""
+google_analytics: "UA-42257695-1"
 
 # Set these options as you need (For more information, check Jekyll's site)
 timezone: "America/Los_Angeles"
