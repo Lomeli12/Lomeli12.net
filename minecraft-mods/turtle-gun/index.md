@@ -8,7 +8,7 @@ comments: false
 
 <h2>Downloads</h2>
 
-<p><iframe src="https://widget.mcf.li/mc-mods/minecraft/224109-turtle-gun" style="border: none;" width="100%"></iframe></p>
+<p><iframe src="https://www.cfwidget.com/mc-mods/minecraft/turtle-gun" width="100%" style="border: none;"></iframe></p>
 
 <p><strong>All Downloads:</strong> <a href="http://minecraft.curseforge.com/projects/turtle-gun/files" target="_blank">http://minecraft.curseforge.com/projects/turtle-gun/files</a></p>
 

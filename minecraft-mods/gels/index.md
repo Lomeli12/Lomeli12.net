@@ -8,7 +8,7 @@ comments: false
 
 <h2>Downloads</h2>
 
-<p><iframe src="https://widget.mcf.li/mc-mods/minecraft/gels" style="border: none;" width="100%"></iframe></p>
+<p><iframe src="https://www.cfwidget.com/mc-mods/minecraft/gels" width="100%" style="border: none;"></iframe></p>
 
 <p><strong>All Downloads:</strong> <a href="http://minecraft.curseforge.com/projects/gels/files" target="_blank">http://minecraft.curseforge.com/projects/gels/files</a></p>
 
