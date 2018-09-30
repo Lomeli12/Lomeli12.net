@@ -9,6 +9,6 @@ comments: false
 <h2>Downloads</h2>
 
 <hr />
-<p><a class="btn btn-danger btn-large" href="https://github.com/Lomeli12/PngCap/releases/latest" target="_blank"><span class="fa fa-download"></span> <strong>Latest Release</strong></a> <a class="btn btn-success btn-large" href="https://github.com/Lomeli12/PngCap" target="_blank"><span class="fa fa-github"></span> <strong>Source Code</strong></a></p>
+<p><a class="btn btn-danger btn-large" href="https://github.com/Lomeli12/PngCap/releases/latest" target="_blank"><span class="fa fa-download"></span> <strong>Latest Release</strong></a> <a class="btn btn-success btn-large" href="https://github.com/Lomeli12/PngCap" target="_blank"><span class="fas fa-code-branch"></span> <strong>Source Code</strong></a></p>
 
 <p>Requires&nbsp;<a href="https://www.microsoft.com/en-us/download/details.aspx?id=21" target="_blank">.NET Framework 3.5</a> or higher.</p>

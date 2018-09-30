@@ -22,7 +22,7 @@ comments: false
 <h2>Downloads</h2>
 
 <hr />
-<p><a class="btn btn-danger btn-large" href="https://github.com/Lomeli12/PlumMod/releases/latest" target="_blank"><span class="fa fa-download"></span> <strong>Latest Release</strong></a> <a class="btn btn-success btn-large" href="https://github.com/Lomeli12/PlumMod" target="_blank"><span class="fa fa-github"></span> <strong>Source Code</strong></a></p>
+<p><a class="btn btn-danger btn-large" href="https://github.com/Lomeli12/PlumMod/releases/latest" target="_blank"><span class="fa fa-download"></span> <strong>Latest Release</strong></a> <a class="btn btn-success btn-large" href="https://github.com/Lomeli12/PlumMod" target="_blank"><span class="fas fa-code-branch"></span> <strong>Source Code</strong></a></p>
 
 <p>Requires&nbsp;<a href="http://www.microsoft.com/en-us/download/details.aspx?id=17718" target="_blank">.NET Framework 4</a> or higher.</p>
 
