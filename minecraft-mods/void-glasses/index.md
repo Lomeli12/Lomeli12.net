@@ -8,7 +8,7 @@ comments: false
 
 <h2>Downloads</h2>
 
-<p><iframe src="https://www.cfwidget.com/mc-mods/minecraft/void-glasses" width="100%" style="border: none;"></iframe></p>
+<p><iframe src="https://www.cfwidget.com/minecraft/mc-mods/void-glasses" width="100%" style="border: none;"></iframe></p>
 
 <p><strong>All Downloads:</strong> <a href="http://minecraft.curseforge.com/projects/void-glasses/files" target="_blank">http://minecraft.curseforge.com/projects/void-glasses/files</a></p>
 

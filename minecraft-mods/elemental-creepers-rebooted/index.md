@@ -14,7 +14,7 @@ comments: false
 
 <h2>Downloads</h2>
 
-<p><iframe src="https://www.cfwidget.com/mc-mods/minecraft/elemental-creepers" width="100%" style="border: none;"></iframe></p>
+<p><iframe src="https://www.cfwidget.com/minecraft/mc-mods/elemental-creepers" width="100%" style="border: none;"></iframe></p>
 
 <p><strong>All Downloads:</strong> <a href="http://minecraft.curseforge.com/projects/elemental-creepers/files" target="_blank">http://minecraft.curseforge.com/projects/elemental-creepers/files</a></p>
 

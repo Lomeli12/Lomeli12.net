@@ -8,7 +8,7 @@ comments: false
 
 <h2>Downloads</h2>
 
-<p><iframe src="https://www.cfwidget.com/mc-mods/minecraft/lomlib" width="100%" style="border: none;"></iframe></p>
+<p><iframe src="https://www.cfwidget.com/minecraft/mc-mods/lomlib" width="100%" style="border: none;"></iframe></p>
 
 <p><strong>All Downloads:</strong> <a href="https://minecraft.curseforge.com/projects/lomlib/files" target="_blank">https://minecraft.curseforge.com/projects/lomlib/files</a></p>
 
