@@ -9,7 +9,7 @@ comments: false
 <h2>Download:</h2>
 
 <hr />
-<p><a class="btn btn-danger btn-default" href="{{ site.baseurl }}/files/PastoAndroid/Pasto-v1.0-release.apk"><span class="fa fa-android"></span> Download APK</a><a class="btn btn-success btn-default" onclick="toggle_visibility('qrCode');"><span class="fa fa-qrcode"></span> Show QR Code</a></p>
+<p><a class="btn btn-danger btn-default" href="{{ site.baseurl }}/files/PastoAndroid/Pasto-v1.0-release.apk"><span class="fab fa-android"></span> Download APK</a><a class="btn btn-success btn-default" onclick="toggle_visibility('qrCode');"><span class="fa fa-qrcode"></span> Show QR Code</a></p>
 
 <center><img alt="{{ site.baseurl }}/files/PastoAndroid/Pasto-v1.0-release.apk" id="qrCode" src="https://files.lomeli12.net/apps/pasto/qrcode.png" style="display:none;" /></center>
 
