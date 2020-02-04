@@ -1,0 +1,13 @@
+.app {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    background: #212121;
+    padding: 10px;
+    border: 1px dashed #b5e853;
+    align-self: stretch;
+    width: 300px;
+}

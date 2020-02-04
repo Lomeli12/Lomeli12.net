@@ -1,118 +1,33 @@
-# Build settings
-# Gems
-plugins:
-- jekyll-paginate
-- jekyll-feed
+title: Anthony Lomeli
+description: "Musing of a guy that just wants to code"
+author:
+  name: "Lomeli"
+  email: "anthony@lomeli12.net"
+  url: "https://lomeli12.net"
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-# If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-url: "https://lomeli12.net."
-enforce_ssl: ""
-baseurl: ""
+baseurl: /
 
-# Title of website
-title: Lomeli's Bloggy Thingy
-
-#Default keywords (used if no keywords are specified on a page basis)
-keywords: lomeli, minecraft, mods, the sims 4, .NET, C#, android, pasto, trophy slots, elemental creepers, java, kotlin
-
-# Short description of your site
-desc: Lomeli's Bloggy Website Thingy
-
-# --- Navigation bar options --- #
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.jpg"
-
-# List of links in the navigation bar
-nav-links: [
-    ["Home", ""], 
-    ["Mods", "hasSubtypes", [
-      ["Mod Packs & Videos", "minecraft-mods/mod-packs"], 
-      ["LomLib", "minecraft-mods/lomlib"],
-      ["Simple Condensers", "minecraft-mods/simple-condensers"],
-      ["AchieveSON", "minecraft-mods/achieveson"],
-      ["Gels+", "minecraft-mods/gels"],
-      ["Turtle Gun", "minecraft-mods/turtle-gun"],
-      ["Elemental Creepers", "minecraft-mods/elemental-creepers-rebooted"],
-      ["Trophy Slots", "minecraft-mods/trophy-slots"],
-      ["Craft Cards", "minecraft-mods/craft-cards"],
-      ["Memory", "minecraft-mods/memory"],
-      ["Void Glasses", "minecraft-mods/void-glasses"]
-    ]], 
-    ["Apps", "hasSubtypes", [
-      ["BoomBot - A Discord Bot", "isRedirect", "https://boombot.github.io/"],
-      ["PngCap", "apps/pngcap"],
-      ["PlumMod", "apps/plummod"],
-      ["ASMDHT", "apps/asmdht"],
-      ["PasTo for Android", "apps/pasto-for-android"]
-    ]],
-    ["Tutorials", "hasSubtypes", [
-      ["Tutorial: How to make a simple Multiblock Structure",
-      "tutorials/tutorial-how-to-make-a-simple-multiblock-structure"]
-    ]],
-    ["Information", "hasSubtypes", [
-        ["About Me", "about-me"],
-        ["GitHub Résumé", "isRedirect", "https://resume.github.io/?Lomeli12"],
-        ["Contact", "contact"],
-        ["Links", "about-me/links"]
-    ]],
-    ["Livestreams", "livestreams"]
-    ]
-  
-# --- Footer options --- #
-
-# If the values are empty, they are ignored 
-profile:
-  name: Anthony Lomeli
-  email: anthony@lomeli12.net
-  github: lomeli12
-  twitter: lomeli12_
-
-# To display link in the footer section
-pretty-url: "lomeli12.net"
-
-# --- Misc --- #
-
-# Google Analytics Settings
-google_analytics: "UA-42257695-1"
-
-# Set these options as you need (For more information, check Jekyll's site)
-timezone: "America/Los_Angeles"
-markdown: kramdown
-#highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+source: .
+destination: ./_site
 permalink: /post/:title
 paginate: 5
+paginate_path: "/blog/page:num/"
 
-# Default YAML values (more information on Jekyll's site)
+google_analytics: "UA-42257695-1"
+
 defaults:
   -
     scope:
       path: ""
       type: "posts"
     values:
-      comments: true  # add comments to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "default"
-      show-avatar: true
+      layout: "post"
 
-# Exclude these files from production site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+future: true
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-created-by: Anthony, Lomeli
-creator-url: https://lomeli12.net
+# Custom variables
+owner : "lomeli"
+year : "2020"

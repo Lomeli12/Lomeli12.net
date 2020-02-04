@@ -1,3 +1,4 @@
-_site
-.sass-cache
-files
+_site/
+.sass-cache/
+test.sh
+.jekyll-cache/

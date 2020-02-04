@@ -1,14 +1,12 @@
 ---
-layout: template1
-title: Tutorial - How to make a simple Multiblock Structure
-comments: false
+layout: default
 ---
 
 <p><strong>Minecraft Version:</strong> Tested in 1.6.x and 1.7.x (use getTileEntity instead of getBlockTileEntity in 1.7.x)</p>
 
 <p>MultiBlock structures are a nice way to make advance blocks without dealing with adding multiple recipes as an arbitrary way to make said block expensive. So, how does one go about creating their own MultiBlock? This tutorial will teach you how to make a basic 3x3x3 MultiBlock structure with a hollow center using a Master-Slave system.</p>
 
-<p>This tutorial assumes you have basic knowledge of how to make a basic mod, creating TileEntities, and dealing with NBT data. If you don’t, I recommend reading/watching Wuppy’s tutorials, they’re an excellent source of information and are also the tutorials I used when I first started modding. ;)</p>
+<p>This tutorial assumes you have basic knowledge of how to make a basic mod, creating TileEntities, and dealing with NBT data. If you don’t, I recommend reading/watching <a href="https://wiki.mcjty.eu/modding/index.php?title=Main_Page" target="_blank">Mcjty's tutorials</a>, they’re an excellent source of information, and pretty much the defacto place for learning how to mod.</p>
 
 <p>Please note that there are multiple ways to create a MultiBlock structure and this method may not be the best. Also note that the way we will be making the MultiBlock will make it like the ones in RailCraft, in which all the data is stored in the bottom center block of the structure, so keep that in mind if you don’t want your structure to work that way.</p>
 
@@ -18,7 +16,7 @@ comments: false
 
 <p>We will also be needing a few variables, two boolean for the tile to see if it has a master and/or if it is the master of the structure and three integers for the coordinates of the master for the slaves to use. Make sure to add getters and setters for each one and have them saved in the Tile’s NBT data.</p>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code0');">Show/Hide Code</a></p>
+<p><a class="btn" onclick="toggle_visibility('code0');">Show/Hide Code</a></p>
 
 <div id="code0" style="display:none;">
 	<pre><code class="language-java">
@@ -103,7 +101,7 @@ public class TileMultiBlock extends TileEntity {
 
 <p>Next step is to make a method to check is the structure was properly formed. The easiest way is to make three <em>for loops</em> (for the x, y, and z coordinates) and check to see if there is a TileEntity at each coordinate and counting it if it is an instance of TileMultiBlock. Then counting them up to see if the right number of TileEntities are present and checking if the center is empty.</p>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code1');">Show/Hide Code</a></p>
+<p><a class="btn" onclick="toggle_visibility('code1');">Show/Hide Code</a></p>
 
 <div id="code1" style="display:none;">
 	<pre><code class="language-java">
@@ -131,7 +129,7 @@ public boolean checkMultiBlockForm() {
 
 <p>We also need a method to tell all those tiles that they now have a master and where it’s located at. You’ll also have to tell the bottom center block that it is the master. This method will only be used by the master once it detects that the structure is formed.</p>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code2');">Show/Hide Code</a></p>
+<p><a class="btn" onclick="toggle_visibility('code2');">Show/Hide Code</a></p>
 
 <div id="code2" style="display:none;">
 	<pre><code class="language-java">
@@ -156,7 +154,7 @@ public void setupStructure() {
 
 <p>Now we need setup methods to check if the structure is invalidated and to reset all the parts. The master block can reuse the <em>checkMultiBlockForm</em> method for checking the structure, but the slave blocks should also constantly check that the master still exists in case the master is broken first, and for them to reset themselves if it no longer exists.</p>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code3');">Show/Hide Code</a></p>
+<p><a class="btn" onclick="toggle_visibility('code3');">Show/Hide Code</a></p>
 
 <div id="code3" style="display:none;">
 	<pre><code class="language-java">
@@ -178,7 +176,7 @@ public boolean checkForMaster() {
 
 <p>We also need a method for the master to use if <em>checkMultiBlockForm</em> returns false. Since we already have the reset method, we can just make a clone of <em>setupStructure</em> that resets stuff instead.</p>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code4');">Show/Hide Code</a></p>
+<p><a class="btn " onclick="toggle_visibility('code4');">Show/Hide Code</a></p>
 
 <div id="code4" style="display:none;">
 	<pre><code class="language-java">
@@ -200,7 +198,7 @@ public void resetStructure() {
 
 <p>First, lets make sure our tiles check for the structure is formed and to make sure only the master block does work. All of this will be put in the <em>updateEntity</em> method.</p>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code5');">Show/Hide Code</a></p>
+<p><a class="btn" onclick="toggle_visibility('code5');">Show/Hide Code</a></p>
 
 <div id="code5" style="display:none;">
 	<pre><code class="language-java">
@@ -224,7 +222,7 @@ public void updateEntity() {
 
 <p>Now, we need to have our master check if the structure is still formed or our slaves to check if the master is still in tact, which we will do in our onNeighborBlockChange in our block class.</p>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code6');">Show/Hide Code</a></p>
+<p><a class="btn" onclick="toggle_visibility('code6');">Show/Hide Code</a></p>
 
 <div id="code6" style="display:none;">
 	<pre><code class="language-java">
@@ -250,7 +248,7 @@ public void onNeighborBlockChange(World world, int x, int y, int z, Block block)
 
 <p><strong>Final Code</strong></p>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code7');">TileEntity Code</a></p>
+<p><a class="btn" onclick="toggle_visibility('code7');">TileEntity Code</a></p>
 
 <div id="code7" style="display:none;">
 	<pre><code class="language-java">
@@ -406,7 +404,7 @@ public class TileMultiBlock extends TileEntity {
 </code></pre>
 </div>
 
-<p><a class="btn btn-danger btn-default" onclick="toggle_visibility('code8');">Block Code</a></p>
+<p><a class="btn" onclick="toggle_visibility('code8');">Block Code</a></p>
 
 <div id="code8" style="display:none;">
 	<pre><code class="language-java">
@@ -455,10 +453,13 @@ public class BlockMultiBlock extends BlockContainer {
 
 <p>Since a few people have been having problems understanding this without an example, I made an example mod that is based of this tutorial. You can take a look for yourself here: <a href="https://github.com/Lomeli12/MultiBlock-Tutorial/" target="_blank">https://github.com/Lomeli12/MultiBlock-Tutorial/</a></p>
 
-<p>Edit: Small edit to take into account if a Tile is already a part of a mulitblock structure.<br />
+<p>
+    Edit 1: Small edit to take into account if a Tile is already a part of a mulitblock structure.<br />
 	Edit 2: Fixed typos and missing TileEntity objects.<br />
 	Edit 3: Fixed some things that may break the multiblock.<br />
 	Edit 4: Thanks to <a href="https://twitter.com/KitsuneKihira" target="_blank">Kihira</a> for pointing out it’s I should only re-validate the structure on block neighbour change.<br />
-	Edit 5: Moved my website to a new server and cms. Using Prism for highlighting.</p>
-
-<p>Edit 6: Found a nice replacement for the code hightlighting/show hide =D</p>
+	Edit 5: Moved my website to a new server and cms. Using Prism for highlighting.<br />
+    Edit 6: Found a nice replacement for the code hightlighting/show hide =D <br />
+    Edit 7: Wuppy doesn't exist anymore. =( Replaced with link to Mcjty's excellent tutorials. <br />
+</p> 
+    

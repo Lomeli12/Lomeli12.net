@@ -1,12 +1,10 @@
 ---
-layout: template1
-title: Mod Packs & Videos
-comments: false
+layout: default
 ---
 
 <p>I’ve been getting a few modpack and video requests recently. Rather than answer them all with the exact same response, here’s a picture of a duck:</p>
 
-<p><img alt="A duck" height="474" src="{{ site.baseurl }}/data/uploads/duck.jpg" width="714" /></p>
+<p><img alt="A duck" height="474" src="{{ site.baseurl }}assets/img/duck.jpg" width="714" /></p>
 
 <p>Now some actual info on how I regard modpacks: As most of my mods are either licensed under the GPL or the LGPL, no written permission is required for any of my mods. More specifically, here is a list of <strong>what you Can and Can Not do</strong>:</p>
 
@@ -24,4 +22,4 @@ comments: false
 
 <p>In regards to videos, you are allowed to use my mod in any video without my permission. Please stop asking me for permission.</p>
 
-<p>I like to thank everyone who enjoy my mods. It’s you guys who make it worth while to make mods. If you need any help, contact me via the form on the <a href="{{ site.baseurl }}/contact/" target="_blank" title="Contact">Contact</a> page, PM me on the <a href="http://www.minecraftforum.net/user/1204198-lomeli12/" target="_blank">Minecraft Forums</a>, find me on the Forge IRC (#minecraftforge @ esper.net), or the <a href="http://www.feed-the-beast.com/community" target="_blank">FTB TeamSpeak</a>.</p>
+<p>I like to thank everyone who enjoy my mods. It’s you guys who make it worth while to make mods. If you need any help, contact me via the form on the <a href="{{ site.baseurl }}contact/" target="_blank" title="Contact">Contact</a> page, PM me on the <a href="http://www.minecraftforum.net/user/1204198-lomeli12/" target="_blank">Minecraft Forums</a>, find me on the Forge IRC (#minecraftforge @ esper.net), or the <a href="http://www.feed-the-beast.com/community" target="_blank">FTB TeamSpeak</a>.</p>

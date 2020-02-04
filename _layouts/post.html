@@ -1,31 +1,9 @@
 ---
-layout: template1
-comments: true 
-hidetitle: true
+layout: default
 ---
 
-<div class="row">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="text-primary">{{ page.title }}</h3>
-            <span class="text-muted"><small>Posted on {{ page.date | date: "%B %-d, %Y" }}</small></span>
-        </div>
-        <div class="panel-body">
-            {{ content }}
-        </div>
-        <div class="panel-footer">
-            <ul class="pager blog-pager">
-                {% if page.previous.url %}
-                <li class="previous">
-                    <a href="{{ page.previous.url }}.html" data-toggle="tooltip" data-placement="top"
-                    title="{{page.previous.title}}">&larr; Previous Post</a>
-                </li>
-                {% endif %} {% if page.next.url %}
-                <li class="next">
-                    <a href="{{ page.next.url }}.html" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                </li>
-                {% endif %}
-            </ul>
-        </div>
-    </div>
-</div>
+<article>
+    <h2>{{ page.title }}</h2>
+    <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+    {{ content }}
+</article>
