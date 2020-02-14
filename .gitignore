@@ -2,3 +2,6 @@ _site/
 .sass-cache/
 test.sh
 .jekyll-cache/
+.md~
+.html~
+.yml~
