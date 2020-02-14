@@ -11,3 +11,10 @@
     align-self: stretch;
     width: 300px;
 }
+
+.item img {
+    display: block;
+    height: 171px;
+    width: 304px;
+    overflow: hidden;
+}
