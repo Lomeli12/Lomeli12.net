@@ -13,4 +13,6 @@ layout: default
 
 ## Other Tutorials
 
-*TODO*
+<ul>
+    <li><a href="/tutorials/keybase-git-pgp-keys">How to use your Keybase PGP key with Git and Github</a></li>
+</ul>
