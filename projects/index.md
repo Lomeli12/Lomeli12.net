@@ -14,7 +14,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
             <img src="{{ site.baseurl }}assets/img/mods/trophy_slots.png" alt="Trophy Slots">
         </a>
         <h3>Trophy Slots</h3>
-        <hr>
+        <hr />
         A Minecraft mod that removes slots from the player's inventory. The player must either complete advancements or earn and use trophies in order to regain control of their inventory.
     </div>
     <div class="item">
@@ -22,7 +22,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
             <img src="{{ site.baseurl }}assets/img/mods/turtle_gun.png" alt="Turtle Gun">
         </a>
         <h3>Turtle Gun</h3>
-        <hr>
+        <hr />
         A Minecraft mod that adds a gun that fires explosive turtles. It's as simple as that.
     </div>
     <div class="item">
@@ -30,7 +30,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
             <img src="{{ site.baseurl }}assets/img/projects/beaver.png" alt="Beaver">
         </a>
         <h3>Beaver</h3>
-        <hr>
+        <hr />
         My attempt at a very simple build system for the Vala programming language. Heavily inspired by Gradle.
     </div>
     <div class="item">
@@ -38,7 +38,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
             <img src="{{ site.baseurl }}assets/img/projects/tbleditor.jpg" alt="TBLEditor">
         </a>
         <h3>TBLLib and TBLEditor</h3>
-        <hr>
+        <hr />
         A library and command-line tool for compiling and decompiling <i>.tbl</i> files from the 3DS game <strong><i>Persona Q2</i></strong>. Works on both .NET Core and .NET Framework.
     </div>
 </div>
