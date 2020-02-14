@@ -38,7 +38,7 @@ $ git config --global commit.gpgsign true
     $ keybase pgp export -q C1685D09FE1307AC | pbclip
     ```
 8. Go to the [keys page of your GitHub account](https://github.com/settings/keys). Click the big green button labeled `New GPG Key`.
-9. Paste your public key into the textbox and hit the green button labeld `Add GPG Key`.
+9. Paste your public key into the textbox and hit the green button labeled `Add GPG Key`.
 
 ## Optional: Tell git where GnuPG is installed.
 
