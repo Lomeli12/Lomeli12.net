@@ -41,4 +41,13 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
         <hr />
         A library and command-line tool for compiling and decompiling <i>.tbl</i> files from the 3DS game <strong><i>Persona Q2</i></strong>. Works on both .NET Core and .NET Framework.
     </div>
+    <div class="item">
+        <a href="https://github.com/Lomeli12/ASMDHT">
+            <img src="{{ site.baseurl }}assets/img/projects/asmdht.png" alt="Another SMDH Tool">
+        </a>
+        <h3>ASMDHT</h3>
+        <hr />
+        ASMDHT &#40;Another SMDH Tool&#41; is a GUI tool for creating and editing SMDH files for use on the Nintendo 3DS.
+        For those interested, you can lookup more info on SMDH file type on <a href="http://3dbrew.org/wiki/SMDH" target="_blank">3DBrew</a>.
+    </div>
 </div>
