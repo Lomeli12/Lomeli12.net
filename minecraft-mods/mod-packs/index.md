@@ -22,4 +22,4 @@ layout: default
 
 <p>In regards to videos, you are allowed to use my mod in any video without my permission. Please stop asking me for permission.</p>
 
-<p>I like to thank everyone who enjoy my mods. It’s you guys who make it worth while to make mods. If you need any help, contact me via the form on the <a href="{{ site.baseurl }}contact/" target="_blank" title="Contact">Contact</a> page, PM me on the <a href="http://www.minecraftforum.net/user/1204198-lomeli12/" target="_blank">Minecraft Forums</a>, find me on the Forge IRC (#minecraftforge @ esper.net), or the <a href="http://www.feed-the-beast.com/community" target="_blank">FTB TeamSpeak</a>.</p>
+<p>I like to thank everyone who enjoy my mods. It’s you guys who make it worth while to make mods. If you need any help, please find the respecitve mod's <a href="https://github.com/Lomeli12?tab=repositories" target="_blank">GitHub repo</a> and submit an issue there.</p>
