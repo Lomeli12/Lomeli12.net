@@ -5,7 +5,7 @@ author:
   email: "anthony@lomeli12.net"
   url: "https://lomeli12.net"
 
-baseurl: /
+baseurl: 
 
 source: .
 destination: ./_site

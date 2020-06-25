@@ -11,7 +11,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
 <div class="app">
     <div class="item">
         <a href="https://www.curseforge.com/minecraft/mc-mods/trophy-slots">
-            <img src="{{ site.baseurl }}assets/img/mods/trophy_slots.png" alt="Trophy Slots">
+            <img src="{{ site.baseurl }}/assets/img/mods/trophy_slots.png" alt="Trophy Slots">
         </a>
         <h3>Trophy Slots</h3>
         <hr />
@@ -19,7 +19,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
     </div>
     <div class="item">
         <a href="https://www.curseforge.com/minecraft/mc-mods/turtle-gun">
-            <img src="{{ site.baseurl }}assets/img/mods/turtle_gun.png" alt="Turtle Gun">
+            <img src="{{ site.baseurl }}/assets/img/mods/turtle_gun.png" alt="Turtle Gun">
         </a>
         <h3>Turtle Gun</h3>
         <hr />
@@ -27,7 +27,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
     </div>
     <div class="item">
         <a href="https://github.com/Lomeli12/Beaver">
-            <img src="{{ site.baseurl }}assets/img/projects/beaver.png" alt="Beaver">
+            <img src="{{ site.baseurl }}/assets/img/projects/beaver.png" alt="Beaver">
         </a>
         <h3>Beaver</h3>
         <hr />
@@ -35,7 +35,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
     </div>
     <div class="item">
         <a href="https://github.com/Lomeli12/TBLEditor">
-            <img src="{{ site.baseurl }}assets/img/projects/tbleditor.jpg" alt="TBLEditor">
+            <img src="{{ site.baseurl }}/assets/img/projects/tbleditor.jpg" alt="TBLEditor">
         </a>
         <h3>TBLLib and TBLEditor</h3>
         <hr />
@@ -43,7 +43,7 @@ For those wondering about Minecraft mod pack permissions, [click here](/minecraf
     </div>
     <div class="item">
         <a href="https://github.com/Lomeli12/ASMDHT">
-            <img src="{{ site.baseurl }}assets/img/projects/asmdht.png" alt="Another SMDH Tool">
+            <img src="{{ site.baseurl }}/assets/img/projects/asmdht.png" alt="Another SMDH Tool">
         </a>
         <h3>ASMDHT</h3>
         <hr />
