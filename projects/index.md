@@ -4,7 +4,7 @@ layout: default
 
 Here's a list of some of the many projects I've working or used to work on. It's not a comprehensive list, but I believe it features some of my best work. Click on the images to visit either the project's download page or it's git repo.
 
-For those wondering about Minecraft mod pack permissions, [click here](/minecraft-mods/mod-packs/).
+For those wondering about Minecraft mod pack permissions, [click here]({{ site.baseurl }}/minecraft-mods/mod-packs/).
 
 ## Featured Projects
 
