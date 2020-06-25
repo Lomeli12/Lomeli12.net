@@ -19,8 +19,7 @@ layout: default
 <p><a class="btn" onclick="toggle_visibility('code0');">Show/Hide Code</a></p>
 
 <div id="code0" style="display:none;">
-	<pre><code class="language-java">
-package net.lomeli.tutorial;
+<pre><code class="language-java">package net.lomeli.tutorial;
 
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
@@ -104,8 +103,7 @@ public class TileMultiBlock extends TileEntity {
 <p><a class="btn" onclick="toggle_visibility('code1');">Show/Hide Code</a></p>
 
 <div id="code1" style="display:none;">
-	<pre><code class="language-java">
-public boolean checkMultiBlockForm() {
+<pre><code class="language-java">public boolean checkMultiBlockForm() {
     int i = 0;
     // Scan a 3x3x3 area, starting with the bottom left corner
     for (int x = xCoord - 1; x &lt; xCoord + 2; x++)
@@ -132,8 +130,7 @@ public boolean checkMultiBlockForm() {
 <p><a class="btn" onclick="toggle_visibility('code2');">Show/Hide Code</a></p>
 
 <div id="code2" style="display:none;">
-	<pre><code class="language-java">
-public void setupStructure() {
+<pre><code class="language-java">public void setupStructure() {
     for (int x = xCoord - 1; x &lt; xCoord + 2; x++)
         for (int y = yCoord; y &lt; yCoord + 3; y++)
             for (int z = zCoord - 1; z &lt; zCoord + 2; z++) {
@@ -157,8 +154,7 @@ public void setupStructure() {
 <p><a class="btn" onclick="toggle_visibility('code3');">Show/Hide Code</a></p>
 
 <div id="code3" style="display:none;">
-	<pre><code class="language-java">
-// Reset method to be run when the master is gone or tells them to
+<pre><code class="language-java">// Reset method to be run when the master is gone or tells them to
 public void reset() {
     masterX = 0;
     masterY = 0;
@@ -179,8 +175,7 @@ public boolean checkForMaster() {
 <p><a class="btn " onclick="toggle_visibility('code4');">Show/Hide Code</a></p>
 
 <div id="code4" style="display:none;">
-	<pre><code class="language-java">
-public void resetStructure() {
+<pre><code class="language-java">public void resetStructure() {
     for (int x = xCoord - 1; x &lt; xCoord + 2; x++)
         for (int y = yCoord; y &lt; yCoord + 3; y++)
             for (int z = zCoord - 1; z &lt; zCoord + 2; z++) {
@@ -201,8 +196,7 @@ public void resetStructure() {
 <p><a class="btn" onclick="toggle_visibility('code5');">Show/Hide Code</a></p>
 
 <div id="code5" style="display:none;">
-	<pre><code class="language-java">
-@Override
+<pre><code class="language-java">@Override
 public void updateEntity() {
     super.updateEntity();
     if (!worldObj.isRemote) {
@@ -225,8 +219,7 @@ public void updateEntity() {
 <p><a class="btn" onclick="toggle_visibility('code6');">Show/Hide Code</a></p>
 
 <div id="code6" style="display:none;">
-	<pre><code class="language-java">
-@Override
+<pre><code class="language-java">@Override
 public void onNeighborBlockChange(World world, int x, int y, int z, Block block) {
     TileEntity tile = world.getTileEntity(x, y, z);
     if (tile != null &amp;&amp; tile instanceof TileMultiBlock) {
@@ -251,8 +244,7 @@ public void onNeighborBlockChange(World world, int x, int y, int z, Block block)
 <p><a class="btn" onclick="toggle_visibility('code7');">TileEntity Code</a></p>
 
 <div id="code7" style="display:none;">
-	<pre><code class="language-java">
-package net.lomeli.tutorial;
+<pre><code class="language-java">package net.lomeli.tutorial;
  
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
@@ -407,8 +399,7 @@ public class TileMultiBlock extends TileEntity {
 <p><a class="btn" onclick="toggle_visibility('code8');">Block Code</a></p>
 
 <div id="code8" style="display:none;">
-	<pre><code class="language-java">
-package net.lomeli.tutorial;
+<pre><code class="language-java">package net.lomeli.tutorial;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
