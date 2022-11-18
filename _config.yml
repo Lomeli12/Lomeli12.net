@@ -9,7 +9,7 @@ baseurl: /
 
 source: .
 destination: ./_site
-permalink: /post/:title
+permalink: /post/:title.html
 paginate: 5
 paginate_path: "/blog/page:num/"
 

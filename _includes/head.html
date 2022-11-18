@@ -5,10 +5,10 @@
 
     <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <link rel="stylesheet" href="/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
 
     <!-- Prism Syntax Highlighting-->
-    <!-- <link href="{{ site.baseurl }}assets/css/syntax.css" rel="stylesheet"> -->
+    <!-- <link href="/assets/css/syntax.css" rel="stylesheet"> -->
     <link href="/assets/css/prism.css" rel="stylesheet">
     
     <!-- Font Awesome -->
